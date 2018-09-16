@@ -1,10 +1,10 @@
 # humanstxt.org
 
 /* TEAM */
-	Name: First, Last Name
-	Contact: email [at] yourdomain.com
+	Name: sameer meher
+	Contact: dmc.sameerkumarmeher@gmail.com
 	Twitter: @twitter_username
-	From: City, Province or State, Country
+	From: Bhubaneswar,odisha,India
 
 /* THANKS */
 
