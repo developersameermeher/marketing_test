@@ -27,6 +27,10 @@ body{font-family: Roboto;}blockquote{border-color: #4ea2e3;}.display-1{font-fami
   <script async custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js"></script>
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
   
 </head>
 <body><body><div id="top-page"></div>                                         <amp-animation id="showScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0.4", "visibility": "visible" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <amp-animation id="hideScrollToTopAnim" layout="nodisplay">                                             <script type="application/json">                                             {                                                 "duration": "200ms",                                                 "fill": "both",                                                 "iterations": "1",                                                 "direction": "alternate",                                                 "animations": [                                                     {                                                         "selector": "#scrollToTopButton",                                                         "keyframes": [                                                             { "opacity": "0", "visibility": "hidden" }                                                         ]                                                     }                                                 ]                                             }                                             </script>                                         </amp-animation>                                         <div id="scrollToTopMarker">                                             <amp-position-observer on="enter:hideScrollToTopAnim.start; exit:showScrollToTopAnim.start" layout="nodisplay">                                             </amp-position-observer>                                         </div><amp-sidebar id="sidebar" class="cid-r44mpnozhd" layout="nodisplay" side="right">
@@ -131,6 +135,13 @@ body{font-family: Roboto;}blockquote{border-color: #4ea2e3;}.display-1{font-fami
 	 <div class="col-sm-4">
       <h3>IDMS Services </h3> 
       <p> IDMS-connect campaign combines all different media, instore promotions, and multiple stages in a promotional campaign to ensure that the marketing message is consistently received by the greatest possible number of people in the target market.</p>
+
+<amp-iframe width="300" height="300"
+    sandbox="allow-scripts allow-same-origin"
+    layout="responsive" align="top"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14965.429753482053!2d85.8096218!3d20.3268473!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x251cf7dd1b383b2a!2sIntegrated+Digital+Marketing+Solutions+%5B+IDMS+%5D!5e0!3m2!1sen!2sin!4v1536988152362" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+	</amp-iframe>
+	</div></div></div>
 
 <section class="footer3 cid-r2VQZ0nX4O" id="footer3-2">
   <div class="container">
